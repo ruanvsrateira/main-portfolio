@@ -1,0 +1,16 @@
+.footer-container {
+  margin-bottom: 50px;
+
+  > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,53 @@
+.button-fulled-green {
+  width: 200px;
+  height: 45px;
+  background-color: #00e88f;
+  border: 1px solid #00e88f;
+  color: #1a1919;
+  font-weight: bold;
+  border: none;
+  border: 1px solid #00e88f;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 16px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+
+.button-fulled-purple {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #915fff;
+  border: 1px solid #915fff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border: 1px solid #915fff;
+  border-radius: 25px;
+  margin: 30px auto;
+  font-size: 16px;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+
+.button-fulled-green:hover {
+  border: 1px solid #1a1919;
+  background-color: #1a1919;
+  color: #00e88f;
+}
+
+.button-fulled-purple:hover {
+  border: 1px solid #1a1919;
+  background-color: #1a1919;
+  color: #915fff;
+}
+
+@media (max-width: 500px) {
+  .button-fulled-green,
+  .button-fulled-purple {
+    width: 400px !important;
+  }
+}
