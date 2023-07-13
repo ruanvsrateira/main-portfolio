@@ -45,7 +45,17 @@
   color: #915fff;
 }
 
-@media (max-width: 500px) { a {
-    width: 80% !important;
+@media (max-width: 500px) {
+  .button-fulled-purple-container,
+  .button-fulled-green-container {
+    width: 90%;
+
+    button {
+      width: 100%;
+    }
+
+    .button-fulled-purple {
+      width: 90%;
+    }
   }
 }

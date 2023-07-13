@@ -10,7 +10,7 @@ interface IButtonFulled {
 export const ButtonFulled = ({ text, color, link }: IButtonFulled) => {
   if (color == "green") {
     return (
-      <a href={link} target="__blank">
+      <a href={link} target="__blank" className="button-fulled-green-container">
         <button className="button-fulled-green">{text}</button>
       </a>
     );
@@ -18,7 +18,11 @@ export const ButtonFulled = ({ text, color, link }: IButtonFulled) => {
 
   if (color == "purple") {
     return (
-      <a href={link} target="__blank">
+      <a
+        href={link}
+        target="__blank"
+        className="button-fulled-purple-container"
+      >
         <button className="button-fulled-purple">
           {text} <FaGithub size={30} />
         </button>
