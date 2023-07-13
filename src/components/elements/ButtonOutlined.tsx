@@ -7,7 +7,7 @@ interface IButtonOutlined {
 
 export const ButtonOutlined = ({ text, link }: IButtonOutlined) => {
   return (
-    <a href={link} target="__blank">
+    <a href={link} target="__blank" className="button-outlined-container">
       <button className="button-outlined">{text}</button>
     </a>
   );

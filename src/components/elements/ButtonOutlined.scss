@@ -18,8 +18,9 @@
 }
 
 @media (max-width: 881px) {
-  .button-outlined {
-    width: 400px;
+  .button-outlined-container,
+  .button-outlined-container > button {
+    width: 100%;
     height: 55px;
     display: flex;
     align-items: center;
