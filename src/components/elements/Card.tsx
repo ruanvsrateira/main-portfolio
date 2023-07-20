@@ -18,8 +18,13 @@ export const Card = ({
         <h3>{title}</h3>
         <p>
           <strong>Tecnologias: </strong> {technologies.map((tec) => `${tec},`)}
-          {description}
         </p>
+        {description && (
+          <>
+            <br />
+            <p>{description}</p>
+          </>
+        )}
         <ButtonFulled
           text="Acessar Repositório"
           color="green"
